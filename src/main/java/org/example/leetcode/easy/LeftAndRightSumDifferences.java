@@ -10,8 +10,8 @@ public class LeftAndRightSumDifferences {
         int[] right=new int[len];
         int[] res=new int[len];
         int sum=0;
-        for (int i = 0; i < len; i++) {
-            sum+=nums[i];
+        for (int num : nums) {
+            sum += num;
         }
         int temp=sum;
         for (int i = 0; i < len; i++) {
