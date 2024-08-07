@@ -23,8 +23,6 @@ public class LeftAndRightSumDifferences {
         for (int i = 0; i < len; i++) {
             res[i]=Math.abs(left[i]-right[i]);
         }
-        System.out.println(Arrays.toString(right));
-        System.out.println(Arrays.toString(left));
         System.out.println(Arrays.toString(res));
     }
 }
