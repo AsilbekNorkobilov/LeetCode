@@ -6,9 +6,9 @@ public class FindTheNumberOfGoodPairs1 {
         int[] nums2={6,9};
         int k=2;
         int res=0;
-        for (int i = 0; i < nums1.length; i++) {
-            for (int j = 0; j < nums2.length; j++) {
-                if (nums1[i]%(nums2[j]*k)==0&&nums1[i]>=nums2[j]*k){
+        for (int value : nums1) {
+            for (int i : nums2) {
+                if (value % (i * k) == 0 && value >= i * k) {
                     res++;
                 }
             }
