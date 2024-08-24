@@ -1,7 +1,5 @@
 package org.example.leetcode.easy;
 
-import java.util.Arrays;
-
 public class RemoveOneElementToMakeTheArrayStrictlyIncreasing {
     public static void main(String[] args) {
         int[] nums={2,3,1,2};
