@@ -1,12 +1,11 @@
 package org.example.leetcode.easy;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class PascalsTriangle {
     public static void main(String[] args) {
-        int numsRows=1;
+        int numsRows=5;
         List<List<Integer>> res=new ArrayList<>();
         List<Integer> lastRow=new ArrayList<>();
         for (int i = 0; i < numsRows; i++) {
