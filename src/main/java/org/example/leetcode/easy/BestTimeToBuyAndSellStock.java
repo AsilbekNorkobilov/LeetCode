@@ -2,15 +2,16 @@ package org.example.leetcode.easy;
 
 public class BestTimeToBuyAndSellStock {
     public static void main(String[] args) {
-        int[] prices={7,1,5,3,6,4};
-        int res=0;
-        for (int i = 0; i < prices.length-1; i++) {
-            for (int j = i+1; j < prices.length; j++) {
-                if (prices[j]-prices[i]>res){
-                    res=prices[j]-prices[i];
-                }
+        int[] prices={2,1,4};
+        int profit=0;
+        int min=Integer.MAX_VALUE;
+        for (int i = 0; i < prices.length; i++) {
+            if (prices[i]<min){
+                min=prices[i];
+            }else if (prices[i]-min>profit){
+                profit=prices[i]-min;
             }
         }
-        System.out.println(res);
+        System.out.println(profit);
     }
 }
