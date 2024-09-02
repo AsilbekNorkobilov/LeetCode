@@ -2,7 +2,6 @@ package org.example.leetcode.easy;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class SingleNumber {
     public static void main(String[] args) {
