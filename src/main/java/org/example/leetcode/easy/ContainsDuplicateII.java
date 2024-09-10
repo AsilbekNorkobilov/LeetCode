@@ -18,7 +18,6 @@ public class ContainsDuplicateII {
             }
             counter.put(nums[i],i);
         }
-        System.out.println(k);
         System.out.println(res);
     }
 }
